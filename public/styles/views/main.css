@@ -1,0 +1,57 @@
+a {
+    color: hotpink;
+}
+
+.wrapper {
+  background: #e8f5fe;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 5%;
+  color: #5b6061;
+  justify-content: center;
+}
+
+.img img {
+  width: 100%;
+}
+
+.dotcom {
+  font-size: 2.5em;
+  margin-top: 0;
+  }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.words {
+
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.links {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding: 0% 25%;
+}
+
+@media (min-width : 830px) {
+
+.wrapper {
+  flex-direction: row;
+}
+
+
+}
