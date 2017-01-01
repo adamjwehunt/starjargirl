@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -417,8 +417,48 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-h1, h2, h3, h4, h5, h6, button {
-  font-family: 'Open Sans', sans-serif; }
+p, a, h1, h2, h3 {
+  font-family: 'Lato', sans-serif; }
 
-p, a, li {
-  font-family: 'Open Sans', sans-serif; }
+a {
+  color: hotpink; }
+
+.wrapper {
+  background: #e8f5fe;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 5%;
+  color: #5b6061;
+  justify-content: center; }
+
+.img img {
+  width: 100%; }
+
+.dotcom {
+  font-size: 2.5em;
+  margin-top: 0; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 8%; }
+
+.contact {
+  display: flex;
+  flex-direction: column; }
+
+.links {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding: 0% 25%; }
+
+@media (min-width: 830px) {
+  .wrapper {
+    flex-direction: row; } }
